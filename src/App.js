@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
-import Navbar from './components/Navbar';
-import Header from './components/Header';
 import Tombl from './components/Tombl';
+import Navbar from './Navigation/Navbar';
 
 function App() {
 
@@ -11,27 +11,10 @@ function App() {
   }
   return (
     <div className="App">
-      
-      <header className="App-header">
-        
-        <Header/>
+             
         <Navbar/>
+        <Tombl pencet = {pencet}/> 
 
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        
-        <p>
-          --/|-/|--
-        </p>
-        <Tombl pencet = {pencet}/>
-        <a
-          className="App-link"
-          href="https://reactjs.org" 
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
     </div>
   );
 }
