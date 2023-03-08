@@ -17,7 +17,7 @@ function App() {
         <Header/>
         <Navbar/>
 
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         
         <p>
           --/|-/|--
