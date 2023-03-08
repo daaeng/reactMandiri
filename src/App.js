@@ -1,14 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import Tombl from './components/Tombl';
 
 function App() {
+
+  const pencet = () => {
+    return alert("Jolali di KLICK")
+  }
   return (
     <div className="App">
+      
       <header className="App-header">
+        
+        <Header/>
+        <Navbar/>
+
         <img src={logo} className="App-logo" alt="logo" />
+        
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Daeng Muhammad
         </p>
+        <Tombl pencet = {pencet}/>
         <a
           className="App-link"
           href="https://reactjs.org" 
