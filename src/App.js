@@ -20,7 +20,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         
         <p>
-          Daeng Muhammad
+          --/|-/|--
         </p>
         <Tombl pencet = {pencet}/>
         <a
