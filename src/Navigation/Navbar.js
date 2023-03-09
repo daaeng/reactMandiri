@@ -1,5 +1,5 @@
 import React from 'react'
-
+// import { Link } from 'react-router-dom'
 function Navbar() {
   
   return (
@@ -26,6 +26,10 @@ function Navbar() {
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav">
           <li className="nav-item active">
+            {/* <link to = "" className='nav-link' >
+
+            </link> */}
+
             <a className="nav-link" href="#">
               Home <span className="sr-only">(current)</span>
             </a>
